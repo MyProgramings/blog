@@ -1,0 +1,48 @@
+<?php
+
+return [
+
+    'Logo'                  => 'My Plog',
+    'user'                  => 'User',
+    'users'                 => 'Users',
+    'username'              => 'Username',
+    'name'                  => 'Name',
+    'email'                 => 'Email',
+    'password'              => 'Password',
+    'select_photo'              => 'SELECT A NEW PHOTO',
+    'Remove_Photo'              => 'REMOVE PHOT',
+    'Current_Password'              => 'Current Password',
+    'remember_me'              => 'remember me',
+    'confirm password'      => 'Confirm Password',
+    'New_Password'      => 'New Password',
+    'already_registered'      => 'Already registered?',
+    'country'               => 'Country',
+    'city'                  => 'City',
+    'role'                  => 'Role',
+    'last_seen'             => 'Last Seen',
+    'profile_photo_url'     => 'Photo',
+    'Profile_Information'     => 'Profile Information',
+    'Update_your_account'     => 'Update your account\'s profile information and email address.',
+    'Update_Password'     => 'Update Password',
+    'Ensure_your_account'     => 'Ensure your account is using a long, random password to stay secure.',
+    'Browser_Sessions'     => 'Browser Sessions',
+    'Once_your_account_is_deleted'     => 'Once your account is deleted, all of its resources and data will be permanently deleted. Before deleting your account, please download any data or information that you wish to retain.',
+    'Log_Out_Other_Browser_Sessions'     => 'Log Out Other Browser Sessions',
+    'log_out_of_all_of_your_other_browser'     => 'If necessary, you may log out of all of your other browser sessions across all of your devices. Some of your recent sessions are listed below; however, this list may not be exhaustive. If you feel your account has been compromised, you should also update your password.',
+    'Manage_and_log_out_your_active_sessions'=>'Manage and log out your active sessions on other browsers and devices.',
+    'Delete_Account'=>'Delete Account',
+    'Permanently_delete'=>'Permanently delete your account.',
+
+    'select country'        => 'Select Country',
+    'select city'           => 'Select City',
+
+    'create user'           => 'Create User :USERNAME Successfully',
+    'update user'           => 'Update User :USERNAME Successfully',
+    'delete user'           => 'Delete User Successfully',
+    'delete question'       => 'Are you sure you want to delete?!',
+    'force delete question' => 'Are you sure you want to delete the User permanently?!',
+    'delete result'         => 'This action will result in permanent deletion of User',
+    'restore user'          => 'The User :USERNAME has been successfully restored',
+    'force delete user'     => 'The user has been permanently deleted successfully',
+
+];
