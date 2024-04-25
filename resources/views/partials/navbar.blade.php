@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark border-top-0 border-start-0 border-end-0 border-2 shadow-lg">
   <div class="container-fluid">
-    <a class="navbar-brand pl-5" href="#">{{ config('app.name') }}</a>
+    <a class="navbar-brand pl-5" href="#">{{ config('app.name') }} الطبية</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

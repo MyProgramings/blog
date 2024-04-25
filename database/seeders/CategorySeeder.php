@@ -17,33 +17,48 @@ class CategorySeeder extends Seeder
     public function run()
     {
         DB::table('categories')->insert([
-            'title' => 'ثقافة',
-            'slug' => 'ثقافة',
+            'title' => 'التشخيصية',
+            'slug' => 'التشخيصية',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
         DB::table('categories')->insert([
-            'title' => 'سياسة',
-            'slug' => 'سياسة',
+            'title' => 'الجراحية',
+            'slug' => 'الجراحية',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
         DB::table('categories')->insert([
-            'title' => 'اقتصاد',
-            'slug' => 'اقتصاد',
+            'title' => 'العلاجية',
+            'slug' => 'العلاجية',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
         DB::table('categories')->insert([
-            'title' => 'فن',
-            'slug' => 'فن',
+            'title' => 'الوقائية',
+            'slug' => 'الوقائية',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
         DB::table('categories')->insert([
-            'title' => 'تكنلوجيا',
-            'slug' => 'تكنلوجيا',
+            'title' => 'الكهربائية',
+            'slug' => 'الكهربائية',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
         DB::table('categories')->insert([
-            'title' => 'تعليم',
-            'slug' => 'تعليم',
+            'title' => 'الإشعاعية',
+            'slug' => 'الإشعاعية',
+            'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
+        ]);
+        DB::table('categories')->insert([
+            'title' => 'البصرية',
+            'slug' => 'البصرية',
+            'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
+        ]);
+        DB::table('categories')->insert([
+            'title' => 'البيولوجية',
+            'slug' => 'البيولوجية',
+            'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
+        ]);
+        DB::table('categories')->insert([
+            'title' => 'الكيميائية',
+            'slug' => 'الكيميائية',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
     }

@@ -1,10 +1,10 @@
 <div class="col-md-4">
     <div class="card border-0 shadow-sm">
-        <h5 class="card-header border-0">التصنيفات</h5>
+        <h5 class="card-header border-0">تصنيفات الأجهزة الطبية</h5>
         <div class="card-body">
             <ul class="nav flex-column p-0" style="list-style:none !important;">
                 <li class="nav-item">
-                    <a href="{{ url('/') }}" class="nav-link text-dark">جميع التصنيفات ( {{ $posts_number }} )</a>
+                    <a href="{{ url('/') }}" class="nav-link text-dark">جميع المنشورات ( {{ $posts_number }} )</a>
                 </li>
                 @foreach ($categories as $cat)
                     <li class="nav-item">
